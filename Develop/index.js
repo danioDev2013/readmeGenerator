@@ -37,8 +37,9 @@ const promptUser = () => {
             choices: [
               "Apache License 2.0", 
               "MIT License", 
-              "Boost Software License 1.0", 
-              "Eclipse Public License 2.0"
+              "BSD 3", 
+              "GPL 3.0",
+              "none"
             ]
         },
         {
@@ -68,8 +69,38 @@ const promptUser = () => {
         },
     ]);
 }
+const generateREAD = (answers) => 
+`
+# ${answers.title}
+## Description 
+${answers.description}
 
+## Table of Contents 
+    
+${answers.contents}
 
+## Installation 
+
+${answers.install}
+## Usage 
+
+${answers.use}
+## License 
+
+${answers.license}
+Copyright (c) 2021 ${answers.name}
+${answers.contributions}
+    
+## Tests 
+
+${answers.test}
+## Questions 
+
+If you have any questions or need any further assistance please see contact information below.
+My GitHub Username: https://github.com/${answers.questions}
+
+My Contact Email: ${answers.email}
+`;
 
 //func init to create file
 
