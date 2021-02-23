@@ -1,6 +1,7 @@
 //packages required
 const inquirer = require('inquirer');
-const fs = require('fs');
+const fsProm = require('fs').promises;
+
 
 //array of questions for user input
 const promptUser = () => {
@@ -70,39 +71,66 @@ const promptUser = () => {
     ]);
 }
 const generateREAD = (answers) => 
-`
-# ${answers.title}
+`# ${answers.title}
+ 
 ## Description 
+---
 ${answers.description}
-
-## Table of Contents 
     
-${answers.contents}
+url: ${answers.url}
 
+## Table of Contents
+---
+* [Description](#Description)
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [Contributions](#Contributions)
+* [Tests](#Tests)
+* [license](#license)
+* [Questions](#Questions)
+    
 ## Installation 
-
+---
 ${answers.install}
+
 ## Usage 
-
+---
 ${answers.use}
-## License 
 
-${answers.license}
-Copyright (c) 2021 ${answers.name}
+## Contributions
+---
 ${answers.contributions}
     
 ## Tests 
-
+---
 ${answers.test}
+
+## License
+---
+${answers.license}
+Copyright (c) 2021 ${answers.name} 
+
 ## Questions 
-
-If you have any questions or need any further assistance please see contact information below.
+---
+If you have any questions please see contact information below.
 My GitHub Username: https://github.com/${answers.questions}
-
+    
 My Contact Email: ${answers.email}
 `;
 
+
 //func init to create file
+async function init() {
+    try {
+        const answer = await promptUser();
+
+        const readAns = generateREAD(answer);
+
+        fsProm.writeFile("newRead/README.md", readAns);
+    } catch(err) {
+      console.log(err);
+    }
+  }
 
 //function call to initialize app
 init();
