@@ -1,10 +1,10 @@
-# kdjflkajds
+# readme generator
  
 ## Description 
 ---
-sdfjlasd;lfj
+A professional readme generator.
     
-url: djf;alsdkjf
+url: none
 
 ## Table of Contents
 ---
@@ -18,29 +18,28 @@ url: djf;alsdkjf
     
 ## Installation 
 ---
-sdfj;lsdkfj
+npm install
 
 ## Usage 
 ---
-dsl;kfja;ldskjf
+To generate a readme file
 
 ## Contributions
 ---
-dsjafl;kjds;f
+None
     
 ## Tests 
 ---
-dfjal;dsjkfl;
+None
 
 ## License
 ---
-Apache-2.0 License <br>
-[![License: Apache-2.0](https://img.shields.io/badge/License-Apache-2.0.svg)](https://opensource.org/licenses/Apache-2.0) <br>
-Copyright (c) 2021 adsjf;klasdjf;ds <br>
+MIT License License <br>
+Copyright (c) 2021 Danielle Orley <br>
 
 ## Questions 
 ---
 If you have any questions please see contact information below.
-My GitHub Username: https://github.com/dslkjfl;kasdjf
+My GitHub Username: https://github.com/dorley1993
     
-My Contact Email: djflakdsjf
+My Contact Email: daniorley1993@gmail.com

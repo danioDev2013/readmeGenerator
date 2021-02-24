@@ -36,8 +36,8 @@ const promptUser = () => {
             message: "Which type of license would you like to use?",
             name: "license",
             choices: [
-              "Apache 2.0", 
-              "MIT", 
+              "Apache 2.0 License", 
+              "MIT License", 
               "BSD 3", 
               "GPL 3.0",
               "none"
@@ -110,8 +110,7 @@ ${answers.test}
 
 ## License
 ---
-${answers.license} License <br>
-[![License: ${answers.license}](https://img.shields.io/badge/License-${answers.license}.svg)](https://opensource.org/licenses/${answers.license}) <br>
+${answers.license} <br>
 Copyright (c) 2021 ${answers.name} <br>
 
 ## Questions 
