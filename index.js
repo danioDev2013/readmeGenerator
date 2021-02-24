@@ -2,37 +2,50 @@
 const inquirer = require('inquirer');
 const fsProm = require('fs').promises;
 
+//const icon array for the badges
 const icon = [];
 
 
 //array of questions for user input
 const promptUser = () => {
     return inquirer.prompt([
+        //title of projects
         {
             type: "input",
             name: "title",
             message: "What is the title of the project?"
         },
+        //live url
         {
             type: "input",
             name: "url",
             message: "What is the live url for this project?"
         },
+        //project description
         {    
             type: "input",
             name: "description",
             message: "What is the description of your project?" 
         }, 
+        //installation instructions
         {
             type: "input",
             name: "install",
             message: "What is the installation instructions?"
         },
+        //installation dependencies
+        {
+            type: "input",
+            name: "dependencies",
+            message: "What command should be run to install dependencies?"
+        },
+        //used
         {
             type: "input",
             name: "use",
             message: "How is this project used?"
         },
+        //list of license
         {
             type: "list",
             message: "Which type of license would you like to use?",
@@ -45,26 +58,31 @@ const promptUser = () => {
               "None"
             ]
         },
+        //name for copyright
         {
             type: "input",
             name: "name",
             message: "What is your first and last name for copyright license?"
         },
+        //contributions
         {
             type: "input",
             name: "contributions",
             message: "Please list any contributions made to the project."
         },
+        //test instructions
         {
             type: "input",
             name: "test",
             message: "What is the test instructions for the project?"
         },
+        //username
         {
             type: "input",
             name: "questions",
             message: "Please enter your GitHub username."
         },
+        //contact email
         {
             type: "input",
             name: "email",
@@ -80,8 +98,11 @@ const generateREAD = (answers) =>
  
 ## Description 
 ---
+
 ${answers.description}
+
 <br>
+
 ${icon[0]}
     
 url: ${answers.url}
@@ -100,11 +121,14 @@ url: ${answers.url}
 ---
 ${answers.install}
 
+To install necessary dependencies, run the following command:
+\`\`\`${answers.dependencies}\`\`\`
+
 ## Usage 
 ---
 ${answers.use}
 
-## Contributions
+## Contributing
 ---
 ${answers.contributions}
     
@@ -114,13 +138,14 @@ ${answers.test}
 
 ## License
 ---
-${answers.license} <br>
-Copyright (c) 2021 ${answers.name} <br>
+Copyright (c) 2021 ${answers.name} 
+
+licensed under ${answers.license}
 
 ## Questions 
 ---
 If you have any questions please see contact information below.
-My GitHub Username: https://github.com/${answers.questions}
+My GitHub Username: [${answers.questions}](http://github.com/${answers.questions})
     
 My Contact Email: ${answers.email}
 `;
@@ -131,6 +156,7 @@ async function init() {
     try {
         const answer = await promptUser();
 
+        //if statement for the badges 
         if (answer.license === 'MIT') {
             icon.push("[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)")
         }
@@ -146,9 +172,9 @@ async function init() {
         if (answer.license === 'None') {
             icon.push(" ")
         }
-
         const readAns = generateREAD(answer);
 
+        //write file, located in newRead file
         fsProm.writeFile("newRead/README.md", readAns);
     } catch(err) {
       console.log(err);

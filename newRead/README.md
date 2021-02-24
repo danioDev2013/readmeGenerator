@@ -1,12 +1,15 @@
-# ldsjfl;a
+# readme generator
  
 ## Description 
 ---
-dsfkjads;l
+
+This is a professional readme generator.
+
 <br>
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
     
-url: dkfjads
+url: 
 
 ## Table of Contents
 ---
@@ -20,28 +23,32 @@ url: dkfjads
     
 ## Installation 
 ---
-dsfla;sdklf
+
+
+To install necessary dependencies, run the following command:
+```npm i```
 
 ## Usage 
 ---
-dsf;j
 
-## Contributions
+
+## Contributing
 ---
-dsfjads;
+
     
 ## Tests 
 ---
-dskfj;ldask
+
 
 ## License
 ---
-MIT <br>
-Copyright (c) 2021 skdjfkl;dsaj <br>
+Copyright (c) 2021 Danielle Orley 
+
+licensed under MIT
 
 ## Questions 
 ---
 If you have any questions please see contact information below.
-My GitHub Username: https://github.com/dskfjnlk;ads
+My GitHub Username: [dorley1993](http://github.com/dorley1993)
     
-My Contact Email: dkljfla;sdkjf
+My Contact Email: danio1993@gmail.com
