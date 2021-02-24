@@ -1,15 +1,15 @@
-# readme generator
+# Readme Generator
  
 ## Description 
 ---
 
-This is a professional readme generator.
+This is a command-line application created to generate professional readme.md files from the user's inputs using node.js packages. 
 
 <br>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
     
-url: 
+url: none
 
 ## Table of Contents
 ---
@@ -30,19 +30,19 @@ To install necessary dependencies, run the following command:
 
 ## Usage 
 ---
-
+Make sure NodeJs is installed. 
 
 ## Contributing
 ---
-
+Danielle
     
 ## Tests 
 ---
-
+npm test
 
 ## License
 ---
-Copyright (c) 2021 Danielle Orley 
+Copyright © Danielle Orley 
 
 licensed under MIT
 
@@ -51,4 +51,4 @@ licensed under MIT
 If you have any questions please see contact information below.
 My GitHub Username: [dorley1993](http://github.com/dorley1993)
     
-My Contact Email: danio1993@gmail.com
+My Contact Email: daniorley1993@gmail.com

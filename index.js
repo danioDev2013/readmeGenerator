@@ -13,7 +13,13 @@ const promptUser = () => {
         {
             type: "input",
             name: "title",
-            message: "What is the title of the project?"
+            message: "What is the title of the project?",
+            validate: function (answers) {
+                if (answers.length < 1) {
+                    return console.log("You must enter a title for your project.");
+                }
+                return true;
+            }
         },
         //live url
         {
@@ -25,7 +31,13 @@ const promptUser = () => {
         {    
             type: "input",
             name: "description",
-            message: "What is the description of your project?" 
+            message: "What is the description of your project?",
+            validate: function (answers) {
+                if (answers.length < 1) {
+                    return console.log("You must enter a description for your project.");
+                }
+                return true;
+            }
         }, 
         //installation instructions
         {
@@ -37,13 +49,20 @@ const promptUser = () => {
         {
             type: "input",
             name: "dependencies",
-            message: "What command should be run to install dependencies?"
+            message: "What command should be run to install dependencies?",
+            default: "npm i"
         },
         //used
         {
             type: "input",
             name: "use",
-            message: "How is this project used?"
+            message: "How is this project used?",
+            validate: function (answers) {
+                if (answers.length < 1) {
+                    return console.log("You must enter how to use your project.");
+                }
+                return true;
+            }
         },
         //list of license
         {
@@ -62,7 +81,13 @@ const promptUser = () => {
         {
             type: "input",
             name: "name",
-            message: "What is your first and last name for copyright license?"
+            message: "What is your first and last name for copyright license?",
+            validate: function (answers) {
+                if (answers.length < 1) {
+                    return console.log("You must enter your name.");
+                }
+                return true;
+            }
         },
         //contributions
         {
@@ -74,13 +99,21 @@ const promptUser = () => {
         {
             type: "input",
             name: "test",
-            message: "What is the test instructions for the project?"
+            message: "What is the test instructions for the project?",
+            default: 'npm test'
+
         },
         //username
         {
             type: "input",
             name: "questions",
-            message: "Please enter your GitHub username."
+            message: "Please enter your GitHub username.",
+            validate: function (response) {
+                if (response.length < 1) {
+                    return console.log("You must enter a GitHub username.");
+                }
+                return true;
+            }
         },
         //contact email
         {
@@ -138,7 +171,7 @@ ${answers.test}
 
 ## License
 ---
-Copyright (c) 2021 ${answers.name} 
+Copyright © ${answers.name} 
 
 licensed under ${answers.license}
 
@@ -172,6 +205,7 @@ async function init() {
         if (answer.license === 'None') {
             icon.push(" ")
         }
+        
         const readAns = generateREAD(answer);
 
         //write file, located in newRead file
