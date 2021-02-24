@@ -2,6 +2,8 @@
 const inquirer = require('inquirer');
 const fsProm = require('fs').promises;
 
+const icon = [];
+
 
 //array of questions for user input
 const promptUser = () => {
@@ -36,11 +38,11 @@ const promptUser = () => {
             message: "Which type of license would you like to use?",
             name: "license",
             choices: [
-              "Apache 2.0 License", 
-              "MIT License", 
+              "Apache 2.0", 
+              "MIT", 
               "BSD 3", 
               "GPL 3.0",
-              "none"
+              "None"
             ]
         },
         {
@@ -79,6 +81,8 @@ const generateREAD = (answers) =>
 ## Description 
 ---
 ${answers.description}
+<br>
+${icon[0]}
     
 url: ${answers.url}
 
@@ -126,6 +130,22 @@ My Contact Email: ${answers.email}
 async function init() {
     try {
         const answer = await promptUser();
+
+        if (answer.license === 'MIT') {
+            icon.push("[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)")
+        }
+        if (answer.license === 'APACHE 2.O') {
+            icon.push("[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)")
+        }
+        if (answer.license === 'GPL 3.0') {
+            icon.push("[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)")
+        }
+        if (answer.license === 'BSD 3') {
+            icon.push("[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)")
+        }
+        if (answer.license === 'None') {
+            icon.push(" ")
+        }
 
         const readAns = generateREAD(answer);
 
