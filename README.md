@@ -1,7 +1,7 @@
 <h1 align="center">ReadMe Generator 👋</h1> 
  
 ## Description 
----
+
 
 This is a command-line application created to generate professional readme.md files from the user's inputs using node.js packages. I needed to create something to help me keep more focus on my projects and less time spent on creating readme files. 
 
@@ -22,7 +22,7 @@ This is a command-line application created to generate professional readme.md fi
     
 
 ## Table of Contents
----
+
 * [Description](#Description)
 * [Installation](#Installation)
 * [Usage](#Usage)
@@ -31,7 +31,7 @@ This is a command-line application created to generate professional readme.md fi
 * [Questions](#Questions)
     
 ## ⬇️ Installation ⬇️
----
+
 Install node.js if you already haven't. Below is a link to instrutions on how to do that. 
 
 [coding bootcamp: how to install node.js](https://coding-boot-camp.github.io/full-stack/nodejs/how-to-install-nodejs)
@@ -43,7 +43,7 @@ To install necessary dependencies, run the following command: <br>
     npm i
 
 ## 🚀 Usage 
----
+
 Make sure NodeJs is installed. <br>
 From your integrated terminal run: <br>
 
@@ -51,19 +51,22 @@ From your integrated terminal run: <br>
 - answer the questions
 
 ✨ Demo: 
+<br>
 
 ## 👤 Authors
----
-* Danielle Orley
+
+* Danielle Orley 
+
+<br>
 
 ##  📝 License
----
+
 Copyright © 2021 Danielle Orley 
 
-licensed under MIT
+licensed under MIT <br>
 
 ## ❓ Questions ❓
----
+
 If you have any questions please see contact information below. <br>
 ⭐️ My GitHub Username: [dorley1993](http://github.com/dorley1993)
     
