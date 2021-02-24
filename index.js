@@ -110,9 +110,9 @@ ${answers.test}
 
 ## License
 ---
-${answers.license}
-[![License: ${answers.license}](https://img.shields.io/badge/License-${answers.license}.svg)](https://opensource.org/licenses/${answers.license})
-Copyright (c) 2021 ${answers.name} 
+${answers.license} License <br>
+[![License: ${answers.license}](https://img.shields.io/badge/License-${answers.license}.svg)](https://opensource.org/licenses/${answers.license}) <br>
+Copyright (c) 2021 ${answers.name} <br>
 
 ## Questions 
 ---
