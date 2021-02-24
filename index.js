@@ -153,9 +153,10 @@ url: ${answers.url}
 ## Installation 
 ---
 ${answers.install}
-
-To install necessary dependencies, run the following command:
-\`\`\`${answers.dependencies}\`\`\`
+<br>
+To install necessary dependencies, run the following command: <br>
+    
+    \`\`\`${answers.dependencies}\`\`\`
 
 ## Usage 
 ---
@@ -177,7 +178,8 @@ licensed under ${answers.license}
 
 ## Questions 
 ---
-If you have any questions please see contact information below.
+If you have any questions please see contact information below. <br>
+
 My GitHub Username: [${answers.questions}](http://github.com/${answers.questions})
     
 My Contact Email: ${answers.email}
