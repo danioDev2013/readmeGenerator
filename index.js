@@ -36,8 +36,8 @@ const promptUser = () => {
             message: "Which type of license would you like to use?",
             name: "license",
             choices: [
-              "Apache License 2.0", 
-              "MIT License", 
+              "Apache 2.0", 
+              "MIT", 
               "BSD 3", 
               "GPL 3.0",
               "none"
@@ -70,7 +70,10 @@ const promptUser = () => {
         },
     ]);
 }
+
+
 const generateREAD = (answers) => 
+
 `# ${answers.title}
  
 ## Description 
@@ -108,7 +111,7 @@ ${answers.test}
 ## License
 ---
 ${answers.license}
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: ${answers.license}](https://img.shields.io/badge/License-${answers.license}.svg)](https://opensource.org/licenses/${answers.license})
 Copyright (c) 2021 ${answers.name} 
 
 ## Questions 

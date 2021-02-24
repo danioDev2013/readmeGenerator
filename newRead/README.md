@@ -1,8 +1,8 @@
-# Readme Gen
+# readme gen
  
 ## Description 
 ---
-A proff readme gen, which can be for any project.
+djaflkadjf;
     
 url: none
 
@@ -18,29 +18,29 @@ url: none
     
 ## Installation 
 ---
-npm install
+djf;lsadkjf
 
 ## Usage 
 ---
-from command line
+dfkjadlskjf
 
 ## Contributions
 ---
-dkflja
+djflsdakjf
     
 ## Tests 
 ---
-kdf
+djfl;kdasjf
 
 ## License
 ---
-MIT License
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-Copyright (c) 2021 sdk 
+MIT
+[![License: MIT](https://img.shields.io/badge/License-MIT.svg)](https://opensource.org/licenses/MIT)
+Copyright (c) 2021 djasfkjds;fl 
 
 ## Questions 
 ---
 If you have any questions please see contact information below.
-My GitHub Username: https://github.com/dkjfkl
+My GitHub Username: https://github.com/dksjfl;ksdj
     
-My Contact Email: jdflkaj
+My Contact Email: dfjds;kfj
