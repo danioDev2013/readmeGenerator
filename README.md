@@ -25,7 +25,7 @@ This is a command-line application created to generate professional readme.md fi
 * [Description](#Description)
 * [Installation](#Installation)
 * [Usage](#Usage)
-* [Authors](#Authors)
+* [Contribute](#Contribute)
 * [License](#License)
 * [Questions](#Questions)
     
