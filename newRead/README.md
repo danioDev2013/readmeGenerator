@@ -2,7 +2,7 @@
  
 ## Description 
 ---
-This is a command-line application created to generate professional readme.md files from the user's inputs using node.js packages. I needed to create something to help me keep more focus on my projects and less time spent on creating readme files.
+This is a command-line application created to generate professional readme.md files from the user's inputs using node.js packages.
 
 <br>
 
@@ -31,11 +31,11 @@ npm i
 
 ## Usage 
 ---
-npm i, node index.js, answer the questions
+Make sure Node.js is installed. From the terminal run: npm i, node index.js, answer the questions.
 
 ## Contribute
 ---
-If you have anything you'd like to add or change, let me know. If I like it I will update it.
+Please don't hesitate to let me know anything I can update or change. If I like it I'll add it. Thank you.
     
 ## Tests 
 ---

@@ -53,7 +53,7 @@ From the terminal run: <br>
 
 ✨ Demo: 
 <br>
-<iframe src="https://drive.google.com/file/d/1arjNq_sV6vcp9jlJuykLni-E6XVJxfA1/preview" width="100%"></iframe>
+<img src="assets/images/ReadmeDemo.gif" width="100%" alt="Demo"/>
 <br>
 <br>
 Results:
