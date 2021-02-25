@@ -3,42 +3,52 @@
 ## Description 
 ---
 
-This is a command-line application created to generate professional readme.md files from the user's inputs using node.js packages. 
+This is a command-line application created to generate professional readme.md files from the user's inputs using node.js packages. I needed to create something to help me keep more focus on my projects and less time spent on creating readme files.
 
 <br>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
     
-url: none
+url: 
 
 ## Table of Contents
 ---
 * [Description](#Description)
 * [Installation](#Installation)
 * [Usage](#Usage)
-* [Contributions](#Contributions)
+* [Contribute](#Contribute)
 * [Tests](#Tests)
+* [Authors](#Authors)
+* [Credits](#Credits)
 * [license](#license)
 * [Questions](#Questions)
     
 ## Installation 
 ---
 
-
-To install necessary dependencies, run the following command:
+<br>
+To install necessary dependencies, run the following command: <br>
 ```npm i```
 
 ## Usage 
 ---
-Make sure NodeJs is installed. 
+download node.js, npm i, node index.js
 
-## Contributing
+## Contribute
 ---
-Danielle
+
     
 ## Tests 
 ---
-npm test
+
+
+## Authors
+---
+Danielle Orley
+
+## Credits 
+---
+
 
 ## License
 ---
@@ -48,7 +58,8 @@ licensed under MIT
 
 ## Questions 
 ---
-If you have any questions please see contact information below.
+If you have any questions please see contact information below. <br>
+
 My GitHub Username: [dorley1993](http://github.com/dorley1993)
     
-My Contact Email: daniorley1993@gmail.com
+My Contact Email: 

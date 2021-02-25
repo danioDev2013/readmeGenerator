@@ -30,7 +30,7 @@ This is a command-line application created to generate professional readme.md fi
 * [license](#license)
 * [Questions](#Questions)
     
-## ⬇️ Installation ⬇️
+## Installation 
 
 Install node.js if you already haven't. Below is a link to instrutions on how to do that. 
 
@@ -47,11 +47,13 @@ To install necessary dependencies, run the following command: <br>
 Make sure NodeJs is installed. <br>
 From your integrated terminal run: <br>
 
-- npm i
+- npm i (to install packages)
+- node index.js (to run)
 - answer the questions
 
 ✨ Demo: 
 <br>
+
 
 ## 👤 Authors
 
@@ -68,6 +70,6 @@ licensed under MIT <br>
 ## ❓ Questions ❓
 
 If you have any questions please see contact information below. <br>
-⭐️ My GitHub Username: [dorley1993](http://github.com/dorley1993)
+ My GitHub Username: [dorley1993](http://github.com/dorley1993)
     
-⭐️ My Contact Email: daniorley1993@gmail.com
+ My Contact Email: daniorley1993@gmail.com

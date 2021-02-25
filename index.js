@@ -92,15 +92,26 @@ const promptUser = () => {
         //contributions
         {
             type: "input",
-            name: "contributions",
-            message: "Please list any contributions made to the project."
+            name: "contribute",
+            message: "Please list any contributions users can make to the project."
+        },
+        //authors
+        {
+            type: "input",
+            name: "authors",
+            message: "Please list the authors of this project."
+        },
+        //credits
+        {
+            type: "input",
+            name: "credits",
+            message: "Please list any links to repos or inspirations used for this project."
         },
         //test instructions
         {
             type: "input",
             name: "test",
-            message: "What is the test instructions for the project?",
-            default: 'npm test'
+            message: "What is the test instructions for the project?"
 
         },
         //username
@@ -145,8 +156,10 @@ url: ${answers.url}
 * [Description](#Description)
 * [Installation](#Installation)
 * [Usage](#Usage)
-* [Contributions](#Contributions)
+* [Contribute](#Contribute)
 * [Tests](#Tests)
+* [Authors](#Authors)
+* [Credits](#Credits)
 * [license](#license)
 * [Questions](#Questions)
     
@@ -155,20 +168,27 @@ url: ${answers.url}
 ${answers.install}
 <br>
 To install necessary dependencies, run the following command: <br>
-    
-    \`\`\`${answers.dependencies}\`\`\`
+\`\`\`${answers.dependencies}\`\`\`
 
 ## Usage 
 ---
 ${answers.use}
 
-## Contributing
+## Contribute
 ---
-${answers.contributions}
+${answers.contribute}
     
 ## Tests 
 ---
 ${answers.test}
+
+## Authors
+---
+${answers.authors}
+
+## Credits 
+---
+${answers.credits}
 
 ## License
 ---
