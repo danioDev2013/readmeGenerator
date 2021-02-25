@@ -21,12 +21,6 @@ const promptUser = () => {
                 return true;
             }
         },
-        //live url
-        {
-            type: "input",
-            name: "url",
-            message: "What is the live url for this project?"
-        },
         //project description
         {    
             type: "input",
@@ -95,12 +89,6 @@ const promptUser = () => {
             name: "contribute",
             message: "Please list any contributions users can make to the project."
         },
-        //authors
-        {
-            type: "input",
-            name: "authors",
-            message: "Please list the authors of this project."
-        },
         //credits
         {
             type: "input",
@@ -111,7 +99,8 @@ const promptUser = () => {
         {
             type: "input",
             name: "test",
-            message: "What is the test instructions for the project?"
+            message: "What is the test instructions for the project?",
+            default: 'npm run test'
 
         },
         //username
@@ -138,18 +127,16 @@ const promptUser = () => {
 
 const generateREAD = (answers) => 
 
-`# ${answers.title}
+`<h1 align="center"> ${answers.title} 👋</h1> 
  
 ## Description 
 ---
-
 ${answers.description}
 
 <br>
 
 ${icon[0]}
     
-url: ${answers.url}
 
 ## Table of Contents
 ---
@@ -158,7 +145,6 @@ url: ${answers.url}
 * [Usage](#Usage)
 * [Contribute](#Contribute)
 * [Tests](#Tests)
-* [Authors](#Authors)
 * [Credits](#Credits)
 * [license](#license)
 * [Questions](#Questions)
@@ -168,7 +154,9 @@ url: ${answers.url}
 ${answers.install}
 <br>
 To install necessary dependencies, run the following command: <br>
-\`\`\`${answers.dependencies}\`\`\`
+\`
+${answers.dependencies}
+\`
 
 ## Usage 
 ---
@@ -180,11 +168,9 @@ ${answers.contribute}
     
 ## Tests 
 ---
+\`
 ${answers.test}
-
-## Authors
----
-${answers.authors}
+\`
 
 ## Credits 
 ---

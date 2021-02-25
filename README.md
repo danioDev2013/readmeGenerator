@@ -2,7 +2,6 @@
  
 ## Description 
 
-
 This is a command-line application created to generate professional readme.md files from the user's inputs using node.js packages. I needed to create something to help me keep more focus on my projects and less time spent on creating readme files. 
 
     I learned: 
@@ -44,20 +43,29 @@ To install necessary dependencies, run the following command: <br>
 
 ## 🚀 Usage 
 
-Make sure NodeJs is installed. <br>
-From your integrated terminal run: <br>
+Make sure Node.js is installed. <br>
+From the terminal run: <br>
 
 - npm i (to install packages)
-- node index.js (to run)
+- node index.js (to run application)
 - answer the questions
+- your new readme will be in the newRead file after you answer the questions
 
 ✨ Demo: 
 <br>
+<img src="assets/images/readme.mp4" width="100%" alt="demo"/>
+<br>
+<br>
+Results:
+<br>
+Checkout the results in the newRead folder or in the gif below.
+<br>
+<br>
+<img src="assets/images/readmeFinal.gif" width="100%" alt="results"/>
 
+## Contribute
 
-## 👤 Authors
-
-* Danielle Orley 
+Please don't hesitate to let me know anything I can update or change. If I like it I'll add it. Thank you.
 
 <br>
 
