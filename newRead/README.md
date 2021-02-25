@@ -10,7 +10,7 @@ This is a command-line application created to generate professional readme.md fi
     
 
 ## Table of Contents
----
+
 * [Description](#Description)
 * [Installation](#Installation)
 * [Usage](#Usage)
