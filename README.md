@@ -26,7 +26,7 @@ This is a command-line application created to generate professional readme.md fi
 * [Installation](#Installation)
 * [Usage](#Usage)
 * [Authors](#Authors)
-* [license](#license)
+* [License](#License)
 * [Questions](#Questions)
     
 ## Installation 
@@ -41,7 +41,7 @@ To install necessary dependencies, run the following command: <br>
     
     npm i
 
-## 🚀 Usage 
+## Usage
 
 Make sure Node.js is installed. <br>
 From the terminal run: <br>
@@ -53,7 +53,7 @@ From the terminal run: <br>
 
 ✨ Demo: 
 <br>
-<img src="assets/images/readme.mp4" width="100%" alt="demo"/>
+<iframe src="https://drive.google.com/file/d/1arjNq_sV6vcp9jlJuykLni-E6XVJxfA1/preview" width="100%"></iframe>
 <br>
 <br>
 Results:
@@ -69,13 +69,13 @@ Please don't hesitate to let me know anything I can update or change. If I like 
 
 <br>
 
-##  📝 License
+## License
 
 Copyright © 2021 Danielle Orley 
 
 licensed under MIT <br>
 
-## ❓ Questions ❓
+## Questions
 
 If you have any questions please see contact information below. <br>
  My GitHub Username: [dorley1993](http://github.com/dorley1993)

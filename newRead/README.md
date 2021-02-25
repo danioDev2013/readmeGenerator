@@ -1,4 +1,4 @@
-<h1 align="center"> Readme Generator 👋</h1> 
+<h1 align="center"> ReadMe Generator 👋</h1> 
  
 ## Description 
 ---
@@ -17,12 +17,12 @@ This is a command-line application created to generate professional readme.md fi
 * [Contribute](#Contribute)
 * [Tests](#Tests)
 * [Credits](#Credits)
-* [license](#license)
+* [License](#License)
 * [Questions](#Questions)
     
 ## Installation 
 ---
-Install node.js if you already haven't.
+
 <br>
 To install necessary dependencies, run the following command: <br>
 `
@@ -31,17 +31,21 @@ npm i
 
 ## Usage 
 ---
-npm i (to install packages), node index.js (to run), answer the questions
+npm i, node index.js, answer the questions
 
 ## Contribute
 ---
-Please don't hesitate to let me know anything I can update or change. If I like it I'll add it. Thank you.
-
+If you have anything you'd like to add or change, let me know. If I like it I will update it.
+    
 ## Tests 
 ---
 `
 npm run test
 `
+
+## Credits 
+---
+none
 
 ## License
 ---

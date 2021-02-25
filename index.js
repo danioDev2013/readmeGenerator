@@ -146,7 +146,7 @@ ${icon[0]}
 * [Contribute](#Contribute)
 * [Tests](#Tests)
 * [Credits](#Credits)
-* [license](#license)
+* [License](#License)
 * [Questions](#Questions)
     
 ## Installation 
