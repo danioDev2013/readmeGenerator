@@ -130,7 +130,7 @@ const generateREAD = (answers) =>
 `<h1 align="center"> ${answers.title} 👋</h1> 
  
 ## Description 
----
+
 ${answers.description}
 
 <br>
@@ -139,7 +139,7 @@ ${icon[0]}
     
 
 ## Table of Contents
----
+
 * [Description](#Description)
 * [Installation](#Installation)
 * [Usage](#Usage)
@@ -150,7 +150,7 @@ ${icon[0]}
 * [Questions](#Questions)
     
 ## Installation 
----
+
 ${answers.install}
 <br>
 To install necessary dependencies, run the following command: <br>
@@ -159,31 +159,31 @@ ${answers.dependencies}
 \`
 
 ## Usage 
----
+
 ${answers.use}
 
 ## Contribute
----
+
 ${answers.contribute}
     
 ## Tests 
----
+
 \`
 ${answers.test}
 \`
 
 ## Credits 
----
+
 ${answers.credits}
 
 ## License
----
+
 Copyright © ${answers.name} 
 
 licensed under ${answers.license}
 
 ## Questions 
----
+
 If you have any questions please see contact information below. <br>
 
 My GitHub Username: [${answers.questions}](http://github.com/${answers.questions})
